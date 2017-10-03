@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>I am here Arch</title>
+    <link rel="stylesheet" type="text/css" href="archstyle.css">
+  </head>
+  <body>
+
+      <h1 onmouseover="style.color='#ff00ff'"
+      onmouseout="style.color='#ffffff'">
+      Meet up at the Arch <br>and be happy</h1>
+
+
+      <p>Find and connect with your group.<br> With facial recognition, you can <br>identify and keep your group together.</p>
+
+      <img class="pinkBox" id="pinkBox" src="images/box.png">
+
+      <img class="Eyes" id="Eyes" src="images/Eyes.png">
+
+
+      <script type="text/javascript">
+
+      function movepinkBox(){
+        let pinkBox=document.getElementById('pinkBox');
+        pinkBox.classList.toggle('moveRight');
+        }
+      let pinkBox=document.getElementById('pinkBox');
+      pinkBox.addEventListener('mouseover', movepinkBox)
+
+
+      function moveEyes(){
+        let Eyes=document.getElementById('Eyes');
+        Eyes.classList.toggle('moveDown');
+        }
+      let Eyes=document.getElementById('Eyes');
+      Eyes.addEventListener('mouseover', moveEyes)
+
+
+
+
+      </script>
+
+
+
+  </body>
+</html>

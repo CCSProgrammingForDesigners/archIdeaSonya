@@ -1,0 +1,47 @@
+body {
+  background-image:url(images//archbackground.png);
+  color: white;
+  margin-left: 50px;
+
+  }
+
+  h1   {color: rgb(255, 255, 255);
+    font-family: 'Dosis', sans-serif;
+    font-size: 60pt;
+    line-height: 90%;
+    margin-top: 100px;
+  }
+
+  p   {color: #fff;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25pt;
+  }
+
+.pinkBox{
+  width: 100px;
+  margin-left:700px;
+  margin-top:-20px;"
+  }
+
+  .Eyes{
+    margin-left:50px;
+    margin-top:-200px;"
+    }
+
+  .moveRight {
+    margin-left: 850px;
+    margin-top: -70px;
+    -webkit-animation:spin .08s linear ;
+    -moz-animation:spin .08s linear ;
+    animation:spin .08s linear ;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+  }
+
+
+  .moveDown {
+    margin-left: 850px;
+    margin-top: -70px;
+  }
